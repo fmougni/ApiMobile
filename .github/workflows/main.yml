@@ -23,4 +23,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --filter TestCategory=Build TestUnitaire\bin\Debug\TestUnitaire.dll
+      run: dotnet test --filter TestCategory=Build TestUnitaire\bin\Debug\net6.0\TestUnitaire.dll
