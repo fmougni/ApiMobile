@@ -15,7 +15,7 @@ jobs:
     - name: Setup NuGet
       uses: NuGet/setup-nuget@v1.0.5
     - name: Restore Packages
-      run: nuget restore ExtranetAPI.sln
+      run: nuget restore ApiMobile.sln
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
       with:
